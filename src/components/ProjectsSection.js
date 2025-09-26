@@ -21,6 +21,22 @@ export default function ProjectsSection() {
             src: "/images/sherify.png",
         },
         {
+            "name": "ResumeBuild",
+            "type": "ATS-Friendly Resume Builder",
+            "description": "ResumeBuild is a cutting-edge platform that empowers job seekers to create professional, ATS-optimized resumes in minutes. With a sleek, user-friendly interface, users can generate multiple custom resumes, track version history, and easily download them as high-quality PDFs. The platform integrates secure Supabase authentication for seamless login and signup, ensuring a personalized experience for every user.",
+            "tech": [
+                "React",
+                "Vite",
+                "TypeScript",
+                "Supabase",
+                "CSS",
+                "Shadcn"
+            ],
+            "live": "https://resumebuildcs.vercel.app/",
+            "code": "https://github.com/Zuhair-CS/resume-builder",
+            "src": "/images/resumebuild.png"
+        },
+        {
             name: "WANDERLUST",
             type: "Property Listing Platform",
             description: "Travel platform with destination listings, reviews, and image uploads. Built with Node.js, Express.js, MongoDB, and EJS. Features secure user authentication with Passport.js, full CRUD listings, Mapbox API integration for location mapping, image storage via Cloudinary, responsive EJS templates with Bootstrap, and scalable MVC architecture.",
