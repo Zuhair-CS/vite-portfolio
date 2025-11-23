@@ -5,6 +5,23 @@ import { ExpandableCardDemo } from "./ui/grid-card";
 export default function ProjectsSection() {
     const projects = [
         {
+            "name": "AI AUTOMATION TOOL – EMAIL to JIRA SUPPORT SYSTEM",
+            "type": "AI-Powered Automation System",
+            "description": "Intelligent automation tool built during a hackathon that processes Gmail messages and autonomously generates Jira support tickets. Integrates Agentic AI with RAG-based context retrieval to analyze email content, classify issue types, and determine priority levels. Features a FastAPI backend for secure Gmail ingestion and Jira API communication, deployed on AWS Lambda for scalability. Automates the end-to-end support workflow, reducing manual ticket creation time by over 90% and significantly boosting team efficiency.",
+            "tech": [
+                "Python",
+                "FastAPI",
+                "Agentic AI",
+                "RAG",
+                "Gmail API",
+                "Jira Cloud API",
+                "AWS Lambda",
+            ],
+            "live": "https://github.com/vaibhav23244/superhack-hackathon",
+            "code": "https://github.com/vaibhav23244/superhack-hackathon", 
+            "src": "/images/jira-automation.png"
+        },
+        {
             name: "SHERIFY",
             type: "Full Stack Blog Sharing Platform",
             description: "Blog sharing platform with advanced search, user profiles, and hashtag system. Built with Next.js 13+, MongoDB, and Tailwind CSS. Features Google OAuth authentication, full CRUD blog management, real-time filtering, clipboard copy functionality, and immersive 3D background using Spline.",
